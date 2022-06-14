@@ -3,14 +3,14 @@ package com.company;
 import java.util.*;
 
 public class Main {
-    public static HashMap<String, Integer> map = new HashMap<>();
-
+    
     public static void main(String[] args) {
         getTheBiggestAmountOfRepeatedWords("а мама мыла Милу мылом и мыла упало");
     }
 
     public static void getTheBiggestAmountOfRepeatedWords(String s) {
-        String[] words = s.split(" ");
+       public static HashMap<String, Integer> map = new HashMap<>();
+       String[] words = s.split(" ");
         for (String t : words) {
             map.put(t, map.getOrDefault(t, 0) + 1);
         }
