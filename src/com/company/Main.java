@@ -24,10 +24,3 @@ public class Main {
         System.out.println("The most common word - " + maxKey + ". Appears in the sentence: " + maxValue);
     }
 }
-
-
-
-
-
-
-
